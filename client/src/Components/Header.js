@@ -21,7 +21,7 @@ const Header = ({ coins }) => {
       <h1 style={{ color: "#009E17" }}>
         {new Intl.NumberFormat("en-IN", {
           style: "currency",
-          currency: "INR",
+          currency: "USD",
         }).format(total)}
       </h1>
       <p className = "note">Note: everything is stored Locally on your Local Storage Nothing is Stored in server.</p>
